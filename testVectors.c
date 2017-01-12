@@ -22,12 +22,11 @@ int main(int argc, char *argv[]){
 	
 
 	//find dot product of v1 and v2 and print it out
-	printf("The dot product is: %f\n",vector_dot(v1,v2));
  //<--- code goes here
 	
 	//normalize v1 by v2 using the normalize method and print out v1 and v2 after normalization
 	//if the length is 0 then print out an additional warning message saying that the vector was not normalized
-	printf("The normalized vectors are:\n",vector_dot(v1,v2));
+
 	
  //<--- code goes here
 			
