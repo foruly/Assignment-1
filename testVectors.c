@@ -15,20 +15,28 @@ int main(int argc, char *argv[]){
 	//print v1 v2
 	printf("The original vectors are:\n");
  //<--- code goes here
-	
+	vector_print(v1);
+	vector_print(v2);
 	//add v1 to v2 and print out the result
 	printf("The sum of vectors is:\n");
  //<--- code goes here
-	
+	vector_print(vector_add(v1, v2));
 
 	//find dot product of v1 and v2 and print it out
+    printf("The dot product of the vectors is:\n");
  //<--- code goes here
+	printf("%f\n", vector_dot(v1, v2));
 	
 	//normalize v1 by v2 using the normalize method and print out v1 and v2 after normalization
 	//if the length is 0 then print out an additional warning message saying that the vector was not normalized
-
+	printf("The vectors is normalized, 0 for True, 1 for False:\n":);
+//<--- code goes here
+    printf("Vector1:\n");
+	printf("%d\n", vector_normalize(*v1);
+	printf("Vector2:\n");
+	printf("%d\n", vector_normalize(*v2);
 	
- //<--- code goes here
+ 
 			
  return 0;
 }
